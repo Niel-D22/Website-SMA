@@ -10,12 +10,12 @@ export default function Header() {
 				</div>
 				<div class="flex-2 mr-3 mb-5 content-end">
 					<div class="flex flex-nowrap gap-15">
-						<a class="text-base">Beranda</a>
-						<a class="text-base text-nowrap">Profil Sekolah</a>
-						<a class="text-base">Prestasi</a>
-						<a class="text-base">Ekstakurikuler</a>
-						<a class="text-base">Pendaftaran</a>
-						<a class="text-base">Masuk</a>
+						<a class="text-base cursor-pointer">Beranda</a>
+						<a class="text-base cursor-pointer text-nowrap">Profil Sekolah</a>
+						<a class="text-base cursor-pointer">Prestasi</a>
+						<a class="text-base cursor-pointer">Ekstakurikuler</a>
+						<a class="text-base cursor-pointer">Pendaftaran</a>
+						<a class="text-base cursor-pointer">Masuk</a>
 					</div>
 				</div>
 			</div>
