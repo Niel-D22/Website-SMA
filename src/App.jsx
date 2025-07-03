@@ -9,7 +9,7 @@ function App() {
 		<>
 			<Header />
 			<Beranda />
-			<Profil/>
+			<Profil />
 		</>
 	);
 }
