@@ -1,3 +1,5 @@
+import Gambar from "../assets/siswa-siswi.png";
+
 export default function Header() {
 	return (
 		<>
@@ -11,10 +13,7 @@ export default function Header() {
 					</button>
 				</section>
 				<section class="flex-2">
-					<img
-						src="https://png.pngtree.com/png-vector/20210908/ourmid/pngtree-senior-high-school-students-wear-face-mask-png-image_3917714.jpg"
-						alt=""
-					/>
+					<img src={Gambar} alt="" />
 				</section>
 			</div>
 		</>
