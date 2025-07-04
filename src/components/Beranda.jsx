@@ -8,7 +8,7 @@ export default function Header() {
 					<h1 class="text-5xl font-semibold text-blue-900">
 						Educational Innovation for the Superior Generation, Explore Pintar Plus
 					</h1>
-					<button class="bg-emerald-500 hover:bg-emerald-800 shadow-xl/10 w-40 h-15 rounded-full text-amber-50 m-10 mb-0 text-2xl">
+					<button class="cursor-pointer bg-emerald-500 shadow-3xl shadow-emerald-950  w-40 h-15 rounded-full text-amber-50 m-10 mb-0 text-2xl focus:outline-4 focus:outline-emerald-700 focus:outline-offset-1 hover:bg-emerald-700">
 						Get Started
 					</button>
 				</section>
