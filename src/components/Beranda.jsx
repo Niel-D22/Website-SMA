@@ -1,6 +1,6 @@
 import Gambar from "../assets/siswa-siswi.png";
 
-export default function Header() {
+function Beranda() {
 	return (
 		<>
 			<div class="flex w-full h-100 mt-3">
@@ -19,3 +19,4 @@ export default function Header() {
 		</>
 	);
 }
+export default Beranda;

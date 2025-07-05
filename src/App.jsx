@@ -1,8 +1,8 @@
-import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Beranda from "./components/Beranda";
-import Profil from "./components/Profil";
+import Beranda from "./components/beranda";
+import Profil from "./components/profil";
+import Form from "./components/form";
 
 function App() {
 	return (
@@ -10,6 +10,7 @@ function App() {
 			<Header />
 			<Beranda />
 			<Profil />
+			<Form/>
 		</>
 	);
 }

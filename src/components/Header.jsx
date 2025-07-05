@@ -1,6 +1,6 @@
 import Logo from "../assets/logo.png";
 
-export default function Header() {
+function Header() {
 	return (
 		<>
 			<div class="flex bg-blue-600 h-26  text-amber-50">
@@ -26,3 +26,5 @@ export default function Header() {
 		</>
 	);
 }
+
+export default Header;
