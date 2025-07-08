@@ -3,7 +3,7 @@ import Gambar from "../assets/siswa-siswi.png";
 export default function Header() {
 	return (
 		<>
-			<div class="flex w-full h-100 mt-3">
+			<div class="flex w-full h-150 mt-3">
 				<section class="flex-3 content-center ml-5">
 					<h1 class="text-5xl font-semibold text-blue-900">
 						Educational Innovation for the Superior Generation, Explore Pintar Plus
