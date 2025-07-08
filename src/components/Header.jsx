@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 export default function Header() {
 	return (
 		<>
-			<div class="flex bg-blue-600 h-26  text-amber-50">
+			<div data-aos="fade" data-aos-delay="300" class="flex bg-blue-600 h-26  text-amber-50 px-20 ">
 				<img
 					src={Logo}
 					alt="Logo Sekolah"

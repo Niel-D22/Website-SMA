@@ -1,7 +1,7 @@
 export default function Profil() {
 	return (
 		<>
-			<div className="flex flex-nowrap p-5 gap-3 ">
+			<div data-aos="fade" data-aos-delay="700" className="flex flex-nowrap p-5 gap-3 px-20 ">
 				<section className="w-1/2 bg-blue-600 transition delay-150 duration-200 ease-in-out hover:bg-blue-800 hover:translate-x-5 hover:scale-105 rounded-4xl p-5 pt-7">
 					<h1 className="text-6xl font-bold text-amber-50">PROFIL</h1>
 					<div className="m-auto my-25 text-3xl italic text-center text-amber-100">

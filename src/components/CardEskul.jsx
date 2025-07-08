@@ -3,12 +3,17 @@ import React from 'react';
 const CardEskul = ({ id, img, title, desc, wa }) => {
   return (
 
-    
-    <div id={id} className="bg-white rounded-xl shadow-md flex flex-col md:flex-row overflow-hidden w- max-w-[700px] pl-6 max-h-[200px]">
+<div data-aos="fade-up" data-aos-delay="700"
+  id={id}
+  className="bg-white rounded-xl shadow-md flex flex-col md:flex-row overflow-hidden
+   w-full h-[220px] max-w-[670px] border border-gray-100
+   transform transition duration-300 hover:scale-105"
+>
+
       <img
         src={img}
         alt={title}
-        className="w-full md:w-1/3 h-80 object-cover"
+        className="w-full h-full md:w-1/3  object-cover"
       />
       <div className="p-6 flex flex-col justify-between md:w-2/3">
         <div>
